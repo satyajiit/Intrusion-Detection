@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="pro" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">@font/cav</item>
+    </style>
+
+
+    <style name="upd" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Material</item>
+        <item name="DialogTitleText">MAKING CONNECTION TO HC-05 BLUETOOTH DEVICE...</item>
+        <item name="android:fontFamily">@font/cav</item>
+        <item name="DialogSpotColor">#C2185B</item>
+        <item name="DialogSpotCount">7</item>
+    </style>
+
+</resources>

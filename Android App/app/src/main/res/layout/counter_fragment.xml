@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/crd"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:clickable="true"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/halogen"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:padding="20dp"
+            android:textSize="45sp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/crd"
+        android:text="  RESET"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/cav"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:paddingRight="30dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/circular_register"
+        android:background="@drawable/rect_btn2"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+</RelativeLayout>
